@@ -16,3 +16,11 @@ class MainWindow(QMainWindow):
         self.ui = Ui_MainWindow()
         self.ui.setupUi(self)
         self.setWindowIcon(QIcon(':/assets/freetrade.ico'))
+        self.ui.login.loginSuccessed.connect(self.onLoginSuccessed)
+
+    def onLoginSuccessed(self, info):
+        '''
+        
+        '''
+
+        self.ui.zones.setCurrentIndex(1)

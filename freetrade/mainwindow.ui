@@ -33,7 +33,7 @@
     <item>
      <widget class="QStackedWidget" name="zones">
       <widget class="LoginZone" name="login"/>
-      <widget class="QWidget" name="panel"/>
+      <widget class="PanelZone" name="panel"/>
      </widget>
     </item>
    </layout>
@@ -55,6 +55,12 @@
    <class>LoginZone</class>
    <extends>QWidget</extends>
    <header>freetrade.zones.loginzone</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>PanelZone</class>
+   <extends>QWidget</extends>
+   <header>freetrade.zones.panelzone</header>
    <container>1</container>
   </customwidget>
  </customwidgets>
