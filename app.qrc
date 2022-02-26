@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file>assets/freetrade.ico</file>
+    <file>assets/freetrade.png</file>
+  </qresource>
+</RCC>
